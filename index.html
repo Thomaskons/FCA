@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Funds Recovery Update – Case REF-#68746584178917</title>
+  <meta name="description" content="Official crypto funds recovery notification for Doug Batten - Case REF-#68746584178917" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #0057b8; /* Deepened blue for professional look */
+      --accent: #28a745;
+      --muted: #5c6c7a;
+      --bg: #f5f7fa;
+      --card-bg: #ffffff;
+      --border: #e0e4e8;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      --hover: #004a9a;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: #1a2a44;
+      padding: 30px;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .header {
+      background: linear-gradient(90deg, var(--primary) 0%, #007bff 100%);
+      padding: 30px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .logo {
+      height: 50px;
+      width: auto;
+      filter: brightness(0) invert(1); /* White logo for contrast */
+    }
+    .content {
+      padding: 30px;
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+    .status {
+      background: rgba(40, 167, 69, 0.15);
+      color: var(--accent);
+      padding: 8px 16px;
+      border-radius: 25px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .amount {
+      background: #e8f0fe;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid var(--border);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .amount small {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--muted);
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+    .section h3 {
+      color: #1a2a44;
+      font-size: 1.25rem;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .section ul {
+      padding-left: 25px;
+      margin: 0;
+      list-style-type: disc;
+    }
+    .section ul li {
+      color: #2c3e50;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+    .security {
+      display: flex;
+      gap: 12px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+    .security span {
+      background: rgba(40, 167, 69, 0.15);
+      padding: 6px 12px;
+      border-radius: 20px;
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .signature {
+      border-top: 1px solid var(--border);
+      padding-top: 25px;
+      margin-top: 25px;
+    }
+    .signature p {
+      margin: 0 0 15px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .signature .signed-by {
+      font-weight: 600;
+      color: var(--primary);
+      margin-top: 10px;
+      display: none; /* Hidden until signed */
+    }
+    .btn-sign {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .btn-sign:hover {
+      background: var(--hover);
+    }
+    .modal-content {
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+    .modal-header {
+      border-bottom: 1px solid var(--border);
+      background: #f8f9fa;
+    }
+    .modal-footer {
+      border-top: 1px solid var(--border);
+    }
+    .form-control {
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .footer {
+      background: var(--bg);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 8px;
+      transition: color 0.3s ease;
+    }
+    .footer a:hover {
+      color: var(--hover);
+    }
+    @media (max-width: 768px) {
+      .container {
+        margin: 0 15px;
+      }
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .amount {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+      body {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="https://imgpx.com/RMqYcKOAUlOn.png" alt="Organization Logo" class="logo" />
+      <h2 class="mb-0">Wakanda Cyber Trace Centre (ACTC)</h2>
+    </header>
+    <div class="content">
+      <h1 class="mb-4">Crypto Funds Recovery Update – Case REF-#68746584178917</h1>
+      <p class="meta">
+        From: <strong>actc@wakandacybertrace.com</strong><br />
+        To: <strong>Doug Batten – doug.b@hotmail.com</strong><br />
+        Date: <strong>24 September 2025</strong>
+      </p>
+      <div class="status mb-4">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+        Approved
+      </div>
+      <div class="section">
+        <h3>Recovered Funds Summary</h3>
+        <div class="amount">
+          <span>USD 17,391.12</span>
+          <small>BTC (Bitcoin)</small>
+        </div>
+      </div>
+      <div class="section">
+        <h3>Transfer Method Options</h3>
+        <p>Provide BTC-compatible wallet address via verified channels only.</p>
+      </div>
+      <div class="section">
+        <h3>Identity Verification (KYC / AML)</h3>
+        <ul>
+          <li>Government-issued ID</li>
+          <li>Proof of Address</li>
+        </ul>
+        <p>Upload via secure portal.</p>
+      </div>
+      <div class="section">
+        <h3>Communication Preferences</h3>
+        <ul>
+          <li>Phone or email</li>
+        </ul>
+        <p>Unverified channels not used.</p>
+      </div>
+      <div class="section security">
+        <span>Encrypted</span>
+        <span>Regulated</span>
+        <span>Compliant</span>
+      </div>
+      <div class="section">
+        <h3>Security Notes</h3>
+        <ul>
+          <li>Do not share passwords or keys</li>
+          <li>Use secure channels</li>
+          <li>Report unsolicited contacts</li>
+        </ul>
+      </div>
+      <div class="signature">
+        <p>Anthony Goodman<br />Private Investigator, FATF<br /><a href="mailto:actc@wakandacybertrace.com">actc@wakandacybertrace.com</a></p>
+        <p class="signed-by" id="signedBy">Signed by: <span id="signerName"></span></p>
+        <button class="btn-sign" data-bs-toggle="modal" data-bs-target="#signModal">Sign Document</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>
+        Wakanda Cyber Trace Centre (ACTC) © 2025. All rights reserved.<br />
+        Case Reference: REF-#68746584178917 | <a href="https://wakandacybertrace.com">wakandacybertrace.com</a><br />
+        <a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Sign Modal -->
+  <div class="modal fade" id="signModal" tabindex="-1" aria-labelledby="signModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signModalLabel">Sign Document</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="signForm">
+            <div class="mb-3">
+              <label for="signName" class="form-label">Type Your Name</label>
+              <input type="text" class="form-control" id="signName" placeholder="Enter your full name" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" onclick="submitSign()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script>
+    function submitSign() {
+      const name = document.getElementById('signName').value.trim();
+      if (name) {
+        // Update the document with the signer's name
+        const signedByElement = document.getElementById('signedBy');
+        const signerNameElement = document.getElementById('signerName');
+        signerNameElement.textContent = name;
+        signedByElement.style.display = 'block'; // Show the signed-by text
+        document.querySelector('.btn-sign').style.display = 'none'; // Hide the sign button
+        alert(`Document signed by: ${name}`);
+        
+        // Close modal
+        const modal = bootstrap.Modal.getInstance(document.getElementById('signModal'));
+        modal.hide();
+      } else {
+        alert('Please enter your name.');
+      }
+    }
+  </script>
+</body>
+</html>
